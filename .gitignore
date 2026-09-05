@@ -5,4 +5,5 @@ out
 .DS_Store
 *.log
 .env*
+
 public/plate-hero.mp4

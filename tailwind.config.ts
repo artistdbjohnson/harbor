@@ -1,7 +1,10 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
-  content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
+  content: [
+    './app/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+  ],
   theme: {
     extend: {
       colors: {
@@ -21,7 +24,9 @@ const config: Config = {
         sans: ['var(--font-body)', 'Roboto', 'sans-serif'],
         cond: ['var(--font-cond)', 'Roboto Condensed', 'sans-serif'],
       },
-      maxWidth: { measure: '38rem' },
+      maxWidth: {
+        measure: '38rem',
+      },
     },
   },
   plugins: [],
